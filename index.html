@@ -2,7 +2,7 @@
 <head>
 </head>    
 <meta name=robots content=noindex />
-
+<style>body{margin:0;padding:0}</style>
 <script>
 function getParameterByName(name) {
   name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
@@ -10,7 +10,7 @@ function getParameterByName(name) {
   results = regex.exec(location.search);
   return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-var getURL = getParameterByName('url');<style>body{margin:0;padding:0}</style>
+var getURL = getParameterByName('url');
 var getLang = getParameterByName('lang');
 var getIMG = getParameterByName('img');
 var getKEY  = getParameterByName('k1');
